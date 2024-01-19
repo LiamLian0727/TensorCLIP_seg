@@ -1,0 +1,5 @@
+yapf==0.40.1
+timm
+regex
+ftfy
+fvcore
