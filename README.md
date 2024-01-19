@@ -4,7 +4,7 @@ The repository contains a PyTorch implementation that applies TensorCLIP to sema
 
 - torch>=1.8.0
 - torchvision
-- mmcv-full==1.3.17
+- mmcv-full>=1.3.14, <1.4.0 (we use the 1.3.17)
 - mmseg==0.19.0
 - mmdet==2.17.0
 
