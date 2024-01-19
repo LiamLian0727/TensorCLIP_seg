@@ -1,4 +1,4 @@
-## Usage
+This repository contains a PyTorch implementation of semantic segmentation applied to TensorCLIP. For the time being, we'll start by using CLIP instead of TensorCLIP, and the decoder part of [DenseCLIP]{https://github.com/raoyongming/DenseCLIP/tree/master} with minor modifications.
 
 ### Requirements
 
