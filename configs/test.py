@@ -64,7 +64,7 @@ optimizer = dict(type='AdamW', lr=0.0001, weight_decay=0.0001,
 
 runner = dict(type='IterBasedRunner', max_iters=1000)
 
-data_root = 'data/ADETest1K/'
+data_root = '../data/ADETest1K/'
 data = dict(
     samples_per_gpu=1,
     sampler=dict(type='DefaultSampler', shuffle=False),
