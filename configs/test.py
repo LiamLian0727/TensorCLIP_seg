@@ -7,7 +7,7 @@ custom_imports = dict(imports=['tensorclip.json_hook'], allow_failed_imports=Fal
 
 model = dict(
     type='TensorCLIP',
-    pretrained='pretrained/ViT-B-16.pt',
+    pretrained='../pretrained/ViT-B-16.pt',
     context_length=5,
     text_head=False,
     text_dim=512,
